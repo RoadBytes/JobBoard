@@ -21,6 +21,8 @@ gem "suspenders"
 gem "title"
 gem "uglifier"
 
+gem "indeed_api"
+
 group :development do
   gem "listen"
   gem "spring"
