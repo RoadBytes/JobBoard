@@ -1,0 +1,108 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.indeed.com/ads/apisearch?publisher=6374304689104743&q=web%20developer&v=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 17 Jan 2017 05:16:49 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - CTK=1b6ldmd8jbqmoecg; Domain=.indeed.com; Expires=Sun, 22-Jan-2034 00:05:20
+        GMT; Path=/
+      - JSESSIONID=258A50CF0FD02C6EFD727BFE94C040A0.jasxA_sjc-job19; Path=/; HttpOnly
+      - ctkgen=1; Expires=Tue, 17-Jan-2017 05:19:49 GMT; Path=/
+      X-Frame-Options:
+      - SAMEORIGIN
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, private
+      Expires:
+      - Tue, 17 Jan 2017 05:15:49 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - User-Agent
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/xml;charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: <?xml version='1.0' encoding='UTF-8'?><response version="2"><query>web
+        developer</query><location></location><paginationPayload></paginationPayload><dupefilter>true</dupefilter><highlight>false</highlight><start>1</start><end>10</end><pageNumber>0</pageNumber><totalresults>42025</totalresults><results><result><jobtitle>Web
+        Developer</jobtitle><company>Spotify</company><city>New York</city><state>NY</state><country>US</country><formattedLocation>New
+        York, NY</formattedLocation><source>Spotify</source><date>Tue, 15 Nov 2016
+        06:28:33 GMT</date><snippet>We are looking for web developers to join our
+        teams throughout Spotify. You will be joining one of our highly skilled, cross-functional
+        teams as a web developer...</snippet><url>http://www.indeed.com/viewjob?jk=7a8b7bd0f55c4aed&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>7a8b7bd0f55c4aed</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>New
+        York, NY 10011</formattedLocationFull><formattedRelativeTime>30+ days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Junior
+        Front-End Developer</jobtitle><company>PromGirl, llc</company><city>New York</city><state>NY</state><country>US</country><formattedLocation>New
+        York, NY</formattedLocation><source>PromGirl, llc</source><date>Thu, 12 Jan
+        2017 19:47:25 GMT</date><snippet>The Junior Front-End Developer will assist
+        in bringing initial web concepts and designs to life by completing Front-End
+        development duties using HTML5, CSS, and...</snippet><url>http://www.indeed.com/viewjob?jk=4fe6ac11d7520ebd&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>4fe6ac11d7520ebd</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>New
+        York, NY 10018</formattedLocationFull><formattedRelativeTime>4 days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Frontend
+        Developer- Web Platform</jobtitle><company>Gogo Commercial Aviation</company><city>Chicago</city><state>IL</state><country>US</country><formattedLocation>Chicago,
+        IL</formattedLocation><source>Gogo Commercial Aviation</source><date>Thu,
+        12 Jan 2017 17:40:53 GMT</date><snippet>Front End Developer - Web Platform.
+        Develop core JavaScript within our web applications. The &amp;quot;modern
+        web platform&amp;quot; continues to evolve at an ever increasing...</snippet><url>http://www.indeed.com/viewjob?jk=562007dd6a8175be&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>562007dd6a8175be</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Chicago,
+        IL</formattedLocationFull><formattedRelativeTime>4 days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Front
+        End UI Engineering Intern</jobtitle><company>Illumio</company><city>Sunnyvale</city><state>CA</state><country>US</country><formattedLocation>Sunnyvale,
+        CA</formattedLocation><source>Illumio</source><date>Tue, 17 Jan 2017 04:07:17
+        GMT</date><snippet>Front End Developer -This team builds multiple full stack
+        web applications with different frameworks, libraries or tools that support
+        web application...</snippet><url>http://www.indeed.com/viewjob?jk=81e7e625f4bea741&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>81e7e625f4bea741</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Sunnyvale,
+        CA</formattedLocationFull><formattedRelativeTime>1 hour ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Frontend
+        Web Developer</jobtitle><company>SpotX</company><city>Westminster</city><state>CO</state><country>US</country><formattedLocation>Westminster,
+        CO</formattedLocation><source>SpotX</source><date>Fri, 13 Jan 2017 01:49:02
+        GMT</date><snippet>SpotX is looking for a talented and energetic person to
+        join the marketing team as an in-house Frontend Web Developer ....</snippet><url>http://www.indeed.com/viewjob?jk=bbd4d7967384fadf&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>bbd4d7967384fadf</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Westminster,
+        CO</formattedLocationFull><formattedRelativeTime>4 days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Web
+        Developer</jobtitle><company>DePaul University</company><city>Chicago</city><state>IL</state><country>US</country><formattedLocation>Chicago,
+        IL</formattedLocation><source>DePaul University</source><date>Wed, 11 Jan
+        2017 10:03:51 GMT</date><snippet>Design, develop, test and implement enhancements
+        to web based applications. The Office of the Secretary Web Developer applies
+        technical and business functional...</snippet><url>http://www.indeed.com/viewjob?jk=a5683f1e388c2d39&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>a5683f1e388c2d39</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Chicago,
+        IL 60604</formattedLocationFull><formattedRelativeTime>5 days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Web
+        Developer - Remote</jobtitle><company>Food Services of America</company><city>Remote</city><state></state><country>US</country><formattedLocation>Remote</formattedLocation><source>Food
+        Services of America</source><date>Tue, 10 Jan 2017 16:16:47 GMT</date><snippet>C#
+        Web API. We are currently looking for a Web Developer to join our expanding
+        team. The Web Developer role is part of the Enterprise Software and Data...</snippet><url>http://www.indeed.com/viewjob?jk=c34da5f464d25536&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>c34da5f464d25536</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Remote</formattedLocationFull><formattedRelativeTime>6
+        days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Web
+        Developer Level 1</jobtitle><company>JackRabbit Technologies</company><city>Huntersville</city><state>NC</state><country>US</country><formattedLocation>Huntersville,
+        NC</formattedLocation><source>JackRabbit Technologies</source><date>Wed, 11
+        Jan 2017 11:45:41 GMT</date><snippet>As our Web Developer you'll be responsible
+        for web development, quality assurance, and speed/performance of our WordPress
+        websites....</snippet><url>http://www.indeed.com/viewjob?jk=2ef266b536ff6c1e&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>2ef266b536ff6c1e</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Huntersville,
+        NC</formattedLocationFull><formattedRelativeTime>5 days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Front
+        End Developer</jobtitle><company>Humana</company><city>Louisville</city><state>KY</state><country>US</country><formattedLocation>Louisville,
+        KY</formattedLocation><source>Humana</source><date>Mon, 21 Nov 2016 20:18:02
+        GMT</date><snippet>Create semantic, W3C valid, accessible, cross-browser compatible
+        front-end web pages, components, and websites....</snippet><url>http://www.indeed.com/viewjob?jk=698138d911f167dd&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>698138d911f167dd</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Louisville,
+        KY</formattedLocationFull><formattedRelativeTime>30+ days ago</formattedRelativeTime><stations></stations></result><result><jobtitle>Front-
+        End Web Developer</jobtitle><company>Raytheon</company><city>Pasadena</city><state>CA</state><country>US</country><formattedLocation>Pasadena,
+        CA</formattedLocation><source>Raytheon</source><date>Fri, 13 Jan 2017 19:06:17
+        GMT</date><snippet>Raytheon Pasadena is looking for a Front-End Web Developer
+        who is motivated to combine the art of design with the art of programming....</snippet><url>http://www.indeed.com/viewjob?jk=bbac40e841f274f0&amp;qd=79OgNz9uxOaoD2elRVUm17Q5q1HPXcLB4do2IsT3pnYZogr84oVr0-E-uipI2YdX-k90qpeJEnqRwvaczk4-kJEvDwY-BF8VJIDFNyUMhwY&amp;indpubnum=6374304689104743&amp;atk=1b6ldmd8nbqmoe20</url><onmousedown>indeed_clk(this,'9814');</onmousedown><jobkey>bbac40e841f274f0</jobkey><sponsored>false</sponsored><expired>false</expired><indeedApply>false</indeedApply><formattedLocationFull>Pasadena,
+        CA 91107</formattedLocationFull><formattedRelativeTime>3 days ago</formattedRelativeTime><stations></stations></result></results></response>
+    http_version: 
+  recorded_at: Tue, 17 Jan 2017 05:16:50 GMT
+recorded_with: VCR 3.0.3
